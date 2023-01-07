@@ -19,7 +19,7 @@ begin
                 s => s_s);
     
     cin_s <= '0', '1' after 1600ns;
-    -- Podesavamo kobiaciju ulaza za a_s
+    -- Podesavamo kombiaciju ulaza za a_s
     a_s(3) <= '0', '1' after 800ns;
     a_s(2) <= '0', '1' after 400ns, '0' after 800ns, '1' after 1200ns;
     a_s(1) <= '0', '1' after 200ns, '0' after 400ns, '1' after 600ns, '0' after 800ns, '1' after 1000ns,
@@ -28,7 +28,7 @@ begin
                    '0' after 600ns, '1' after 700ns, '0' after 800ns, '1' after 900ns, '0' after 1000ns,
                    '1' after 1100ns,'0' after 1200ns,'1' after 1300ns,'0' after 1400ns,'1' after 1500ns;
                
-    -- Podesavamo kobiaciju ulaza za b_s
+    -- Podesavamo kombiaciju ulaza za b_s
     b_s(3) <= '0', '1' after 800ns;
     b_s(2) <= '0', '1' after 400ns, '0' after 800ns, '1' after 1200ns;
     b_s(1) <= '0', '1' after 200ns, '0' after 400ns, '1' after 600ns, '0' after 800ns, '1' after 1000ns,
